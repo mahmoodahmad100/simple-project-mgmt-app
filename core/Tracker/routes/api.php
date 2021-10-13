@@ -6,5 +6,9 @@ Route::group(['prefix' => 'api', 'middleware' => []], function () {
         #*** START: Project ***#
         Route::apiResource('projects', 'ProjectController');
         #*** END: Project ***#
+
+        #*** START: Record ***#
+        Route::apiResource('records', 'RecordController');
+        #*** END: Record ***#
     });
 });

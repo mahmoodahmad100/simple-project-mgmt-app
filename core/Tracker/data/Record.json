@@ -1,6 +1,19 @@
 {
   "attributes": {
-
+    "project_id": {
+      "type": "bigInteger"
+    },
+    "time": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text",
+      "mod": "nullable"
+    },
+    "via": {
+      "type": "enum:stopwatch,manually",
+      "mod": "nullable|default:stopwatch"
+    }
   },
   "relations": {
 

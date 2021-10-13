@@ -5,12 +5,12 @@
         <h1>
             New Unit
             <a class="btn btn-success" href="{{ route($global['module']['routes']['index']) }}">
-                Go To All Units
+                <i class="fas fa-list-ul" aria-hidden="true"></i>
             </a>
         </h1>
     </div>
 
-    <div class="section-body">
+    <div class="section-body" ng-controller="unitCtrl">
         <h2 class="section-title">New Unit</h2>
         <p class="section-lead">create new unit</p>
 

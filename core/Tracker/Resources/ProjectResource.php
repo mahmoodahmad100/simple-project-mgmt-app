@@ -15,8 +15,8 @@ class ProjectResource extends Resource
     public function toArray($request)
     {
         return [
-            'id'   => $this->id,
-            'name' => $this->name,
+            'id'          => $this->id,
+            'name'        => $this->name,
             'description' => $this->description,
             $this->mergeWhen($request->route()->getName() == 'api.v1.projects.show', [
 

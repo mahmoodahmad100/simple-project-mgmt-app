@@ -21,7 +21,7 @@ class RecordResource extends Resource
             'comment'    => $this->comment,
             'via'        => $this->via,
             $this->mergeWhen($request->route()->getName() == 'api.v1.records.show', [
-
+                'project' => new ProjectResource($this->project)
             ])
         ];
     }

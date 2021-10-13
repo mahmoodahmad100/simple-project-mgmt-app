@@ -19,7 +19,7 @@ class ProjectResource extends Resource
             'name'        => $this->name,
             'description' => $this->description,
             $this->mergeWhen($request->route()->getName() == 'api.v1.projects.show', [
-
+                'records' => RecordResource::collection($this->records),
             ])
         ];
     }

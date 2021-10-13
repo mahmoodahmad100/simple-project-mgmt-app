@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="Core\Base\Tests\Unit\WebControllerTest" methodName="testNamespace" prettifiedClassName="Web Controller (Core\Base\Tests\Unit\WebController)" prettifiedMethodName="Namespace" status="0" time="17.926253033" size="-1" groups="default">
+    <group name="default"/>
+    <testDouble type="Core\Base\Controllers\Web\Controller"/>
+  </test>
+  <test className="Core\Base\Tests\Unit\WebControllerTest" methodName="testDirectory" prettifiedClassName="Web Controller (Core\Base\Tests\Unit\WebController)" prettifiedMethodName="Directory" status="0" time="4.328287528" size="-1" groups="default">
+    <group name="default"/>
+    <testDouble type="Core\Base\Controllers\Web\Controller"/>
+  </test>
+  <test className="Core\Base\Tests\Unit\WebControllerTest" methodName="testPath" prettifiedClassName="Web Controller (Core\Base\Tests\Unit\WebController)" prettifiedMethodName="Path" status="0" time="4.356593884" size="-1" groups="default">
+    <group name="default"/>
+    <testDouble type="Core\Base\Controllers\Web\Controller"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldGetListingOfTheResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should get listing of the resource" status="3" time="9.701194061" size="-1" groups="default" exceptionLine="84" exceptionMessage="Expected response status code [200] but received 500.&#10;Failed asserting that 200 is identical to 500.">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldStoreNewlyCreatedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should store newly created resource" status="3" time="10.196074332" size="-1" groups="default" exceptionLine="96" exceptionMessage="Expected response status code [201] but received 500.&#10;Failed asserting that 201 is identical to 500.">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldGetSpecifiedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should get specified resource" status="3" time="11.095543531" size="-1" groups="default" exceptionLine="108" exceptionMessage="Expected response status code [200] but received 500.&#10;Failed asserting that 200 is identical to 500.">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldUpdateSpecifiedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should update specified resource" status="3" time="12.145617485" size="-1" groups="default" exceptionLine="120" exceptionMessage="Expected response status code [200] but received 500.&#10;Failed asserting that 200 is identical to 500.">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldRemoveSpecifiedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should remove specified resource" status="0" time="12.4560801" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldGetListingOfTheResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should get listing of the resource" status="0" time="21.50820279" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldStoreNewlyCreatedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should store newly created resource" status="3" time="32.332729273" size="-1" groups="default" exceptionLine="96" exceptionMessage="Expected response status code [201] but received 500.&#10;Failed asserting that 201 is identical to 500.">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldGetSpecifiedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should get specified resource" status="3" time="21.089203008" size="-1" groups="default" exceptionLine="108" exceptionMessage="Expected response status code [200] but received 500.&#10;Failed asserting that 200 is identical to 500.">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldUpdateSpecifiedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should update specified resource" status="3" time="22.450957957" size="-1" groups="default" exceptionLine="120" exceptionMessage="Expected response status code [200] but received 500.&#10;Failed asserting that 200 is identical to 500.">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldRemoveSpecifiedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should remove specified resource" status="0" time="17.692747775" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Core\Tracker\Tests\Feature\ReportTest" methodName="testItShouldGetListingOfTheResource" prettifiedClassName="Report (Core\Tracker\Tests\Feature\Report)" prettifiedMethodName="It should get listing of the resource" status="3" time="10.197252581" size="-1" groups="default" exceptionLine="52" exceptionMessage="Expected response status code [200] but received 500.&#10;Failed asserting that 200 is identical to 500.">
+    <group name="default"/>
+  </test>
+</tests>

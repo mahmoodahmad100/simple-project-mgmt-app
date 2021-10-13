@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="14" assertions="32" errors="0" warnings="0" failures="8" skipped="0" time="207.476737">
+    <testsuite name="Unit" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="26.611134">
+      <testsuite name="Core\Base\Tests\Unit\WebControllerTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Base\Tests\Unit\WebControllerTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="26.611134">
+        <testcase name="testNamespace" class="Core\Base\Tests\Unit\WebControllerTest" classname="Core.Base.Tests.Unit.WebControllerTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Base\Tests\Unit\WebControllerTest.php" line="47" assertions="1" time="17.926253"/>
+        <testcase name="testDirectory" class="Core\Base\Tests\Unit\WebControllerTest" classname="Core.Base.Tests.Unit.WebControllerTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Base\Tests\Unit\WebControllerTest.php" line="60" assertions="1" time="4.328288"/>
+        <testcase name="testPath" class="Core\Base\Tests\Unit\WebControllerTest" classname="Core.Base.Tests.Unit.WebControllerTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Base\Tests\Unit\WebControllerTest.php" line="76" assertions="1" time="4.356594"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="11" assertions="29" errors="0" warnings="0" failures="8" skipped="0" time="180.865603">
+      <testsuite name="Core\Tracker\Tests\Feature\ProjectTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php" tests="5" assertions="9" errors="0" warnings="0" failures="4" skipped="0" time="55.594510">
+        <testcase name="testItShouldGetListingOfTheResource" class="Core\Tracker\Tests\Feature\ProjectTest" classname="Core.Tracker.Tests.Feature.ProjectTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php" line="76" assertions="1" time="9.701194">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Core\Tracker\Tests\Feature\ProjectTest::testItShouldGetListingOfTheResource
+Expected response status code [200] but received 500.
+Failed asserting that 200 is identical to 500.
+
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:177
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php:84</failure>
+        </testcase>
+        <testcase name="testItShouldStoreNewlyCreatedResource" class="Core\Tracker\Tests\Feature\ProjectTest" classname="Core.Tracker.Tests.Feature.ProjectTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php" line="93" assertions="1" time="10.196074">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Core\Tracker\Tests\Feature\ProjectTest::testItShouldStoreNewlyCreatedResource
+Expected response status code [201] but received 500.
+Failed asserting that 201 is identical to 500.
+
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:177
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php:96</failure>
+        </testcase>
+        <testcase name="testItShouldGetSpecifiedResource" class="Core\Tracker\Tests\Feature\ProjectTest" classname="Core.Tracker.Tests.Feature.ProjectTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php" line="105" assertions="1" time="11.095544">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Core\Tracker\Tests\Feature\ProjectTest::testItShouldGetSpecifiedResource
+Expected response status code [200] but received 500.
+Failed asserting that 200 is identical to 500.
+
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:177
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php:108</failure>
+        </testcase>
+        <testcase name="testItShouldUpdateSpecifiedResource" class="Core\Tracker\Tests\Feature\ProjectTest" classname="Core.Tracker.Tests.Feature.ProjectTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php" line="117" assertions="1" time="12.145617">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Core\Tracker\Tests\Feature\ProjectTest::testItShouldUpdateSpecifiedResource
+Expected response status code [200] but received 500.
+Failed asserting that 200 is identical to 500.
+
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:177
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php:120</failure>
+        </testcase>
+        <testcase name="testItShouldRemoveSpecifiedResource" class="Core\Tracker\Tests\Feature\ProjectTest" classname="Core.Tracker.Tests.Feature.ProjectTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ProjectTest.php" line="129" assertions="5" time="12.456080"/>
+      </testsuite>
+      <testsuite name="Core\Tracker\Tests\Feature\RecordTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\RecordTest.php" tests="5" assertions="19" errors="0" warnings="0" failures="3" skipped="0" time="115.073841">
+        <testcase name="testItShouldGetListingOfTheResource" class="Core\Tracker\Tests\Feature\RecordTest" classname="Core.Tracker.Tests.Feature.RecordTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\RecordTest.php" line="76" assertions="11" time="21.508203"/>
+        <testcase name="testItShouldStoreNewlyCreatedResource" class="Core\Tracker\Tests\Feature\RecordTest" classname="Core.Tracker.Tests.Feature.RecordTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\RecordTest.php" line="93" assertions="1" time="32.332729">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Core\Tracker\Tests\Feature\RecordTest::testItShouldStoreNewlyCreatedResource
+Expected response status code [201] but received 500.
+Failed asserting that 201 is identical to 500.
+
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:177
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\RecordTest.php:96</failure>
+        </testcase>
+        <testcase name="testItShouldGetSpecifiedResource" class="Core\Tracker\Tests\Feature\RecordTest" classname="Core.Tracker.Tests.Feature.RecordTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\RecordTest.php" line="105" assertions="1" time="21.089203">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Core\Tracker\Tests\Feature\RecordTest::testItShouldGetSpecifiedResource
+Expected response status code [200] but received 500.
+Failed asserting that 200 is identical to 500.
+
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:177
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\RecordTest.php:108</failure>
+        </testcase>
+        <testcase name="testItShouldUpdateSpecifiedResource" class="Core\Tracker\Tests\Feature\RecordTest" classname="Core.Tracker.Tests.Feature.RecordTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\RecordTest.php" line="117" assertions="1" time="22.450958">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Core\Tracker\Tests\Feature\RecordTest::testItShouldUpdateSpecifiedResource
+Expected response status code [200] but received 500.
+Failed asserting that 200 is identical to 500.
+
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:177
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\RecordTest.php:120</failure>
+        </testcase>
+        <testcase name="testItShouldRemoveSpecifiedResource" class="Core\Tracker\Tests\Feature\RecordTest" classname="Core.Tracker.Tests.Feature.RecordTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\RecordTest.php" line="129" assertions="5" time="17.692748"/>
+      </testsuite>
+      <testsuite name="Core\Tracker\Tests\Feature\ReportTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ReportTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="1" skipped="0" time="10.197253">
+        <testcase name="testItShouldGetListingOfTheResource" class="Core\Tracker\Tests\Feature\ReportTest" classname="Core.Tracker.Tests.Feature.ReportTest" file="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ReportTest.php" line="42" assertions="1" time="10.197253">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Core\Tracker\Tests\Feature\ReportTest::testItShouldGetListingOfTheResource
+Expected response status code [200] but received 500.
+Failed asserting that 200 is identical to 500.
+
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:177
+C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ReportTest.php:52</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+Web Controller (Core\Base\Tests\Unit\WebController)
+ [x] Namespace
+ [x] Directory
+ [x] Path
+
+Project (Core\Tracker\Tests\Feature\Project)
+ [ ] It should get listing of the resource
+ [ ] It should store newly created resource
+ [ ] It should get specified resource
+ [ ] It should update specified resource
+ [x] It should remove specified resource
+
+Record (Core\Tracker\Tests\Feature\Record)
+ [x] It should get listing of the resource
+ [ ] It should store newly created resource
+ [ ] It should get specified resource
+ [ ] It should update specified resource
+ [x] It should remove specified resource
+
+Report (Core\Tracker\Tests\Feature\Report)
+ [ ] It should get listing of the resource
+

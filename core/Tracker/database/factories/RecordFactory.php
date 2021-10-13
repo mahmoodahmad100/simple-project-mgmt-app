@@ -21,8 +21,10 @@ class RecordFactory extends Factory
      */
     public function definition()
     {
+        $project = \Core\Tracker\Models\Project::factory()->create();
+        
         return [
-            'project_id' => 1,
+            'project_id' => $project->id,
             'time'       => '01:30:00',
             'comment'    => $this->faker->text(100),
             'via'        => $this->faker->randomElement(['stopwatch','manually']),

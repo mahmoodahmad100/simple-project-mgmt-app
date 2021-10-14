@@ -25,7 +25,7 @@ class RecordFactory extends Factory
         
         return [
             'project_id' => $project->id,
-            'time'       => '01:30:00',
+            'time'       => date('h:i'),
             'comment'    => $this->faker->text(100),
             'via'        => $this->faker->randomElement(['stopwatch','manually']),
         ];

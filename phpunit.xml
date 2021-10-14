@@ -25,9 +25,9 @@
             <directory suffix="api.php">./core</directory>
             <directory suffix="helpers.php">./core</directory>
             <directory suffix="ModuleServiceProvider.php">./core</directory>
-            <directory suffix=".php">./core/Base</directory>
             <file>./core/Base/Traits/Response/SendResponse.php</file>
             <file>./core/Base/Traits/Model/Uuid.php</file>
+            <directory>./core/*/config</directory>
             <directory>./core/*/database/migrations/</directory>
             <directory>./core/*/database/factories</directory>
             <directory>./core/*/database/seeds</directory>

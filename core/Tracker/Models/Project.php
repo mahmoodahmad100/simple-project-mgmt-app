@@ -13,6 +13,6 @@ class Project extends Base
      */
     public function records()
     {
-        return $this->hasMany(Recrod::class, 'project_id');
+        return $this->hasMany(Record::class, 'project_id');
     }
 }

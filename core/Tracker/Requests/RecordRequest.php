@@ -31,7 +31,7 @@ class RecordRequest extends FormRequest
             case 'POST': {
                 return [
                     'project_id' => 'required|integer',
-                    'time'       => 'required|time',
+                    'time'       => 'required|date_format:h:i',
                     'comment'    => 'nullable|string',
                     'via'        => 'nullable|in:stopwatch,manually',
                 ];
@@ -39,7 +39,7 @@ class RecordRequest extends FormRequest
             case 'PUT': {
                 return [
                     'project_id' => 'required|integer',
-                    'time'       => 'required|time',
+                    'time'       => 'required|date_format:h:i',
                     'comment'    => 'nullable|string',
                     'via'        => 'nullable|in:stopwatch,manually',
                 ];

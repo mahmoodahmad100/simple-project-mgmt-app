@@ -12,4 +12,8 @@ Route::namespace('Core\Tracker\Controllers\Web')->prefix('admin')->name('admin.'
         'store', 'update', 'destroy'
     ]);
     #*** END: Record ***#
+
+    #*** START: Calendar ***#
+    Route::get('calendar', 'CalendarController@index')->name('calendar.index');
+    #*** END: Calendar ***
 });

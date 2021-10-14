@@ -33,6 +33,11 @@
                     </li>
                 </ul>
             </li>
+            <li class="{{ Request::is('admin/calendar') ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('admin.calendar.index') }}">
+                    <i class="fas fa-calendar" aria-hidden="true"></i><span>Calendar</span>
+                </a>
+            </li>
             <!-- END: Tracker Management -->
         </ul>
     </aside>

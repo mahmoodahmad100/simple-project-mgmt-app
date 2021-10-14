@@ -4,16 +4,23 @@ app.controller('calendarCtrl', function($scope, projectService) {
   {
     projectService.index()
       .then(function(response) {
-        $scope.collection = response.data['data'];
+        $scope.collection            = response.data['data'];
+        $scope.not_assigned_projects = [];
 
         let events = [];
 
         for (let i = 0; i < $scope.collection.length; i++) {
-          events.push({
-            title: $scope.collection[i].name,
-            start: '2021-10-01',
-            url: records_create_route + '?project_id=' + $scope.collection[i].id
-          });
+
+          if ($scope.collection[i].deadline != null) {
+            events.push({
+              title: $scope.collection[i].name,
+              start: $scope.collection[i].deadline,
+              url: records_create_route + '?project_id=' + $scope.collection[i].id
+            });
+          } else {
+            $scope.not_assigned_projects.push($scope.collection[i]);
+          }
+
         }
 
         var calendarEl = document.getElementById('calendar');

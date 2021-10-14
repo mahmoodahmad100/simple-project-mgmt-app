@@ -40,7 +40,7 @@ app.controller('projectCtrl', function($scope, projectService) {
   $scope.storeForm = function() {
     service.store($scope.payload)
       .then(function(response) {
-        handle_api_response(response, true, false);
+        handle_api_response(response, true, true);
       }, function(response) {
         handle_api_response(response);
       });

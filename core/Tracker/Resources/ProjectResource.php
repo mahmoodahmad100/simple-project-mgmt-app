@@ -18,6 +18,7 @@ class ProjectResource extends Resource
             'id'          => $this->id,
             'name'        => $this->name,
             'description' => $this->description,
+            'deadline'    => $this->deadline,
             $this->mergeWhen($request->route()->getName() == 'api.v1.projects.show', [
                 'records' => RecordResource::collection($this->records),
             ])

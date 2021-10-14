@@ -1,5 +1,6 @@
 <script>
+    // '2021-10-14'
     $('.datepicker').datepicker({
-        format: 'mm/dd/yyyy'
+        format: 'yyyy-mm-dd'
     });
 </script>

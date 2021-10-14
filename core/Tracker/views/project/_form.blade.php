@@ -12,5 +12,10 @@
         <textarea class="form-control hp-60" name="description" ng-model="payload.description"></textarea>
     </div>
 
+    <div class="form-group">
+        <label>Deadline</label>
+        <input class="form-control datepicker" name="deadline" ng-model="payload.deadline">
+    </div>
+
     <button type="submit" class="btn btn-primary" ng-disabled="mainForm.$invalid">Submit</button>
 </form>

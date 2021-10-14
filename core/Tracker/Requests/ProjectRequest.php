@@ -32,12 +32,14 @@ class ProjectRequest extends FormRequest
                 return [
                     'name'        => 'string|required',
                     'description' => 'nullable',
+                    'deadline'    => 'nullable|date',
                 ];
             }
             case 'PUT': {
                 return [
                     'name'        => 'string|required',
                     'description' => 'nullable',
+                    'deadline'    => 'nullable|date',
                 ];
             }
         }

@@ -24,6 +24,7 @@ class ProjectFactory extends Factory
         return [
             'name'        => $this->faker->text(100),
             'description' => $this->faker->text(100),
+            'deadline'    => date('Y-m-d'),
         ];
     }
 }

@@ -18,6 +18,14 @@
         <h2 class="section-title">The Calendar</h2>
         <p class="section-lead">All projects in the calendar</p>
 
+        <p class="section-lead">
+            The projects that have no deadline: <br>
+            <a ng-repeat="payload in not_assigned_projects" 
+               href="{{ route('admin.projects.index') }}/@{{ payload.id }}/edit">
+                @{{ payload.name }} (click to assign)<br>
+            </a>
+        </p>
+
         <div class="row">
             <div class="col-12">
                 <div class="card">

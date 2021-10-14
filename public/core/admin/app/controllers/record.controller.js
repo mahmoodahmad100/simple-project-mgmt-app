@@ -1,5 +1,5 @@
-app.controller('projectCtrl', function($scope, projectService) {
-  let service = projectService;
+app.controller('recordCtrl', function($scope, recordService, projectService) {
+  let service = recordService;
 
   if(route_resource == 'index')
   {
@@ -15,14 +15,33 @@ app.controller('projectCtrl', function($scope, projectService) {
   {
     service.show(id)
       .then(function(response) {
-        $scope.payload = response.data['data'];
-        if (route_resource == 'show')
-        {
-          dataTables_init();
-        }
+        $scope.payload    = response.data['data'];
+        $scope.project_id = $scope.payload.project.id;
       }, function(response) {
         handle_api_response(response);
       });
+  }
+
+  $scope.init_projects = function () {
+    projectService.index()
+      .then(function(response) {
+        $scope.projects = response.data['data'];
+        setTimeout(function(){
+          select2_init();
+          if (route_resource == 'create' && selected_project_id != '') {
+            $scope.project_id = selected_project_id;
+          }
+
+          $('select[name ="project_id"]').val($scope.project_id).change();
+        }, 500);
+      }, function(response) {
+        handle_api_response(response);
+      });
+  }
+
+  if(route_resource == 'create' || route_resource == 'edit')
+  {
+    $scope.init_projects();
   }
 
   $scope.get_module_url = function (id, page = 'edit') {

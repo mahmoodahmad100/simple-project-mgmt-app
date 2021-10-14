@@ -3,16 +3,16 @@
 @section('content')
     <div class="section-header">
         <h1>
-            New Unit
-            <a class="btn btn-success" href="{{ route($global['module']['routes']['index']) }}">
+            New Record
+            {{-- <a class="btn btn-success" href="{{ route($global['module']['routes']['index']) }}">
                 <i class="fas fa-list-ul" aria-hidden="true"></i>
-            </a>
+            </a> --}}
         </h1>
     </div>
 
-    <div class="section-body" ng-controller="unitCtrl">
-        <h2 class="section-title">New Unit</h2>
-        <p class="section-lead">create new unit</p>
+    <div class="section-body" ng-controller="recordCtrl">
+        <h2 class="section-title">New Record</h2>
+        <p class="section-lead">create new record</p>
 
         <div class="row">
             <div class="col-12">
@@ -27,4 +27,13 @@
             </div>
         </div>
     </div>
+@endsection
+
+@section('js')
+    <!-- Record Service -->
+    <script src="{{ URL::to('core/admin/app/services/record.service.js') }}"></script>
+    <!-- Project Service -->
+    <script src="{{ URL::to('core/admin/app/services/project.service.js') }}"></script>
+    <!-- Record Controller -->
+    <script src="{{ URL::to('core/admin/app/controllers/record.controller.js') }}"></script>
 @endsection

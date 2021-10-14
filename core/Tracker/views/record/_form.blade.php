@@ -24,9 +24,13 @@
         </div>
     </div>
 
-    <div class="form-group has-feedback" ng-class="{'has-error': mainForm.time.$dirty && mainForm.time.$invalid}">
+
+    <div ng-if="payload.via == 'manually'"
+        class="form-group has-feedback"
+        ng-class="{'has-error': mainForm.time.$dirty && mainForm.time.$invalid}">
         <label>Time <span class="text-danger">*</span></label>
-        <input class="form-control" name="time" ng-model="payload.time" required>
+        <input class="form-control" name="time" ng-model="payload.time" required 
+               placeholder="type in this format hh:mm like: 05:30 .. this is now 5H 30M">
         <div class="invalid-feedback has-error" ng-show="mainForm.time.$dirty && mainForm.time.$invalid">
             <div ng-show="mainForm.time.$error.required">time is required</div>
         </div>

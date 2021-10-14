@@ -11,4 +11,4 @@ The app is built on Laravel and [Laragine](https://github.com/yepwoo/laragine)
 * enjoy 😃 !
 
 ### Notes:
-* You can run the tests by running `./vendor/bin/phpunit` also before running the tests you check the code coverage reports by opening `ci/codeCoverage/index.html` in the browser
+* You can run the tests by running `./vendor/bin/phpunit` also before running the tests you can check the code coverage reports by opening `ci/codeCoverage/index.html` in the browser

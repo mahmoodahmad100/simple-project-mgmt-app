@@ -28,3 +28,10 @@
         </div>
     </div>
 @endsection
+
+@section('js')
+    <!-- Unit Service -->
+    <script src="{{ URL::to('core/admin/app/services/unit.service.js') }}"></script>
+    <!-- Unit Controller -->
+    <script src="{{ URL::to('core/admin/app/controllers/unit.controller.js') }}"></script>
+@endsection

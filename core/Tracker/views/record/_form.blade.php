@@ -24,6 +24,12 @@
         </div>
     </div>
 
+    <div class="mb-4" ng-if="payload.via == 'stopwatch'"  ng-click="stopwatchInit()">
+        <h1 id="stopwatch-time"><time>00:00:00</time></h1>
+        <button class="btn btn-success" type="button" id="start">start</button>
+        <button class="btn btn-danger" type="button" id="stop">stop</button>
+        <button class="btn btn-info" type="button" id="clear">clear</button>
+    </div>
 
     <div ng-if="payload.via == 'manually'"
         class="form-group has-feedback"

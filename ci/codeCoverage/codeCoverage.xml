@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1634194622">
-  <project timestamp="1634194622">
+<coverage generated="1634243303">
+  <project timestamp="1634243303">
     <file name="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Base\Controllers\API\Controller.php">
       <class name="Core\Base\Controllers\API\Controller" namespace="global">
         <metrics complexity="6" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="18" coveredelements="18"/>
@@ -118,6 +118,39 @@
       </class>
       <metrics loc="36" ncloc="29" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
+    <file name="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\General\Controllers\API\V1\ReportController.php">
+      <class name="Core\General\Controllers\API\V1\ReportController" namespace="global">
+        <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </class>
+      <line num="25" type="method" name="index" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="27" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <metrics loc="33" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+    </file>
+    <file name="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\General\Controllers\Web\DashboardController.php">
+      <class name="Core\General\Controllers\Web\DashboardController" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\General\Tests\Feature\ReportTest.php">
+      <class name="Core\General\Tests\Feature\ReportTest" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+      </class>
+      <line num="29" type="method" name="setUp" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="31" type="stmt" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="42" type="method" name="testItShouldGetListingOfTheResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="51" type="stmt" count="1"/>
+      <line num="52" type="stmt" count="1"/>
+      <line num="53" type="stmt" count="1"/>
+      <line num="54" type="stmt" count="1"/>
+      <metrics loc="55" ncloc="34" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+    </file>
     <file name="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Controllers\API\V1\ProjectController.php">
       <class name="Core\Tracker\Controllers\API\V1\ProjectController" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
@@ -136,14 +169,11 @@
       <line num="20" type="stmt" count="5"/>
       <metrics loc="21" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
     </file>
-    <file name="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Controllers\API\V1\ReportController.php">
-      <class name="Core\Tracker\Controllers\API\V1\ReportController" namespace="global">
-        <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+    <file name="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Controllers\Web\CalendarController.php">
+      <class name="Core\Tracker\Controllers\Web\CalendarController" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
-      <line num="25" type="method" name="index" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="27" type="stmt" count="1"/>
-      <line num="29" type="stmt" count="1"/>
-      <metrics loc="33" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Controllers\Web\ProjectController.php">
       <class name="Core\Tracker\Controllers\Web\ProjectController" namespace="global">
@@ -271,24 +301,6 @@
       <line num="135" type="stmt" count="1"/>
       <metrics loc="136" ncloc="80" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
     </file>
-    <file name="C:\xampp-7.4\htdocs\smart.sa\simple-project-mgmt-app\core\Tracker\Tests\Feature\ReportTest.php">
-      <class name="Core\Tracker\Tests\Feature\ReportTest" namespace="global">
-        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
-      </class>
-      <line num="29" type="method" name="setUp" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="31" type="stmt" count="1"/>
-      <line num="33" type="stmt" count="1"/>
-      <line num="34" type="stmt" count="1"/>
-      <line num="35" type="stmt" count="1"/>
-      <line num="42" type="method" name="testItShouldGetListingOfTheResource" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="44" type="stmt" count="1"/>
-      <line num="45" type="stmt" count="1"/>
-      <line num="51" type="stmt" count="1"/>
-      <line num="52" type="stmt" count="1"/>
-      <line num="53" type="stmt" count="1"/>
-      <line num="54" type="stmt" count="1"/>
-      <metrics loc="55" ncloc="34" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
-    </file>
-    <metrics files="17" loc="1017" ncloc="615" classes="12" methods="40" coveredmethods="40" conditionals="0" coveredconditionals="0" statements="146" coveredstatements="146" elements="186" coveredelements="186"/>
+    <metrics files="19" loc="1033" ncloc="631" classes="12" methods="40" coveredmethods="40" conditionals="0" coveredconditionals="0" statements="146" coveredstatements="146" elements="186" coveredelements="186"/>
   </project>
 </coverage>

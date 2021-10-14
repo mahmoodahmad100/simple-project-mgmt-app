@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tests>
-  <test className="Core\Base\Tests\Unit\WebControllerTest" methodName="testNamespace" prettifiedClassName="Web Controller (Core\Base\Tests\Unit\WebController)" prettifiedMethodName="Namespace" status="0" time="13.522192029" size="-1" groups="default">
+  <test className="Core\Base\Tests\Unit\WebControllerTest" methodName="testNamespace" prettifiedClassName="Web Controller (Core\Base\Tests\Unit\WebController)" prettifiedMethodName="Namespace" status="0" time="15.860898106" size="-1" groups="default">
     <group name="default"/>
     <testDouble type="Core\Base\Controllers\Web\Controller"/>
   </test>
-  <test className="Core\Base\Tests\Unit\WebControllerTest" methodName="testDirectory" prettifiedClassName="Web Controller (Core\Base\Tests\Unit\WebController)" prettifiedMethodName="Directory" status="0" time="5.227461885" size="-1" groups="default">
+  <test className="Core\Base\Tests\Unit\WebControllerTest" methodName="testDirectory" prettifiedClassName="Web Controller (Core\Base\Tests\Unit\WebController)" prettifiedMethodName="Directory" status="0" time="5.134019549" size="-1" groups="default">
     <group name="default"/>
     <testDouble type="Core\Base\Controllers\Web\Controller"/>
   </test>
-  <test className="Core\Base\Tests\Unit\WebControllerTest" methodName="testPath" prettifiedClassName="Web Controller (Core\Base\Tests\Unit\WebController)" prettifiedMethodName="Path" status="0" time="4.843342361" size="-1" groups="default">
+  <test className="Core\Base\Tests\Unit\WebControllerTest" methodName="testPath" prettifiedClassName="Web Controller (Core\Base\Tests\Unit\WebController)" prettifiedMethodName="Path" status="0" time="5.077054678" size="-1" groups="default">
     <group name="default"/>
     <testDouble type="Core\Base\Controllers\Web\Controller"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldGetListingOfTheResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should get listing of the resource" status="0" time="12.758907407" size="-1" groups="default">
+  <test className="Core\General\Tests\Feature\ReportTest" methodName="testItShouldGetListingOfTheResource" prettifiedClassName="Report (Core\General\Tests\Feature\Report)" prettifiedMethodName="It should get listing of the resource" status="0" time="6.817769078" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldStoreNewlyCreatedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should store newly created resource" status="0" time="10.024676182" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldGetListingOfTheResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should get listing of the resource" status="0" time="10.71090224" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldGetSpecifiedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should get specified resource" status="0" time="12.004325619" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldStoreNewlyCreatedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should store newly created resource" status="0" time="13.610921792" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldUpdateSpecifiedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should update specified resource" status="0" time="10.838702339" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldGetSpecifiedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should get specified resource" status="0" time="16.527387154" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldRemoveSpecifiedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should remove specified resource" status="0" time="10.733824491" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldUpdateSpecifiedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should update specified resource" status="0" time="12.344762173" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldGetListingOfTheResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should get listing of the resource" status="0" time="12.092773296" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\ProjectTest" methodName="testItShouldRemoveSpecifiedResource" prettifiedClassName="Project (Core\Tracker\Tests\Feature\Project)" prettifiedMethodName="It should remove specified resource" status="0" time="11.204011021" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldStoreNewlyCreatedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should store newly created resource" status="0" time="10.920888792" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldGetListingOfTheResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should get listing of the resource" status="0" time="14.697630029" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldGetSpecifiedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should get specified resource" status="0" time="13.555530008" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldStoreNewlyCreatedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should store newly created resource" status="0" time="13.387046055" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldUpdateSpecifiedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should update specified resource" status="0" time="14.474521514" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldGetSpecifiedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should get specified resource" status="0" time="17.078397076" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldRemoveSpecifiedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should remove specified resource" status="0" time="13.83407348" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldUpdateSpecifiedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should update specified resource" status="0" time="17.067121716" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="Core\Tracker\Tests\Feature\ReportTest" methodName="testItShouldGetListingOfTheResource" prettifiedClassName="Report (Core\Tracker\Tests\Feature\Report)" prettifiedMethodName="It should get listing of the resource" status="0" time="7.699176696" size="-1" groups="default">
+  <test className="Core\Tracker\Tests\Feature\RecordTest" methodName="testItShouldRemoveSpecifiedResource" prettifiedClassName="Record (Core\Tracker\Tests\Feature\Record)" prettifiedMethodName="It should remove specified resource" status="0" time="14.464845402" size="-1" groups="default">
     <group name="default"/>
   </test>
 </tests>

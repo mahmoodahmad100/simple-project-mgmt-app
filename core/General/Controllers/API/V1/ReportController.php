@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Tracker\Controllers\API\V1;
+namespace Core\General\Controllers\API\V1;
 
 use Core\Tracker\Models\Project;
 

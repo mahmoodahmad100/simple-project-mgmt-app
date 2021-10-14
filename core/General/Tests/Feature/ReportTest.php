@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Tracker\Tests\Feature;
+namespace Core\General\Tests\Feature;
 
 use Core\Base\Tests\TestCase;
 

@@ -12,8 +12,4 @@ Route::namespace('Core\Tracker\Controllers\Web')->prefix('admin')->name('admin.'
         'store', 'update', 'destroy'
     ]);
     #*** END: Record ***#
-
-    #*** START: Dashboard ***#
-    Route::get('/', 'DashboardController@index')->name('index');
-    #*** END: Dashboard ***
 });

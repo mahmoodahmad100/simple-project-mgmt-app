@@ -10,9 +10,5 @@ Route::group(['prefix' => 'api', 'middleware' => []], function () {
         #*** START: Record ***#
         Route::apiResource('records', 'RecordController');
         #*** END: Record ***#
-
-        #*** START: Report ***#
-        Route::get('reports', 'ReportController@index');
-        #*** END: Report ***#
     });
 });
